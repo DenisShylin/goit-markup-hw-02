@@ -47,3 +47,44 @@ a {
   text-align: center;
   color: #fff;
 }
+.interactive-button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.interactive-button:hover,
+.interactive-button:focus {
+  background-color: #404bbf;
+  outline: none;
+}
+.section-background-ourteam {
+  background: #f4f4fd;
+}
+.container-ourteam {
+  background-color: #fff;
+}
+.footer {
+  background: #2e2f42;
+}
+.footer-p {
+  color: #f4f4fd;
+}
+.footer-blue {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+.footer-white {
+  color: #f4f4fd;
+}
