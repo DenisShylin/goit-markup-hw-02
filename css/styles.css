@@ -32,18 +32,16 @@ ul {
   color: #434455;
   line-height: 1.5;
 }
-.example-class {
+.header-navigation a {
   color: #434455;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
-a.example-class:hover {
+.header-navigation a:hover {
   color: #404bbf;
 }
-a.example-class:focus {
+.header-navigation a:focus {
   color: #404bbf;
-}
-
-.address {
-  font-style: normal;
 }
 .section-background {
   background: #2e2f42;
