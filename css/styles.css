@@ -21,6 +21,7 @@ address {
   color: #4d5ae5;
   line-height: 1.17;
 }
+
 .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -38,12 +39,21 @@ address {
   color: #2e2f42;
   line-height: 1.5;
 }
+
 .header-navigation a {
   color: #434455;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.header-navigation a:hover .header-navigation a:focus {
+
+.header-navigation .nav-link {
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-navigation .nav-link:hover,
+.header-navigation .nav-link:focus {
   color: #404bbf;
 }
 
