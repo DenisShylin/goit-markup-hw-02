@@ -104,7 +104,10 @@ address {
   transition: background-color 0.3s;
 }
 
-.review-btn:hover,
+.review-btn:hover {
+  background-color: #404bbf;
+}
+
 .review-btn:focus {
   background-color: #404bbf;
 }
