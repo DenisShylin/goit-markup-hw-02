@@ -41,10 +41,6 @@ address {
   line-height: 1.5;
 }
 
-.header-list {
-  color: #2e2f42;
-}
-
 .header-list:hover,
 .header-list:focus {
   color: #404bbf;
