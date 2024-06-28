@@ -42,6 +42,7 @@ address {
 }
 
 .header-list {
+  color: #2e2f42;
 }
 
 .header-list:hover,
@@ -100,7 +101,7 @@ address {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   color: white;
   border: none;
   cursor: pointer;
