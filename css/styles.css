@@ -89,8 +89,21 @@ address {
   background-color: #404bbf;
   outline: none;
 }
-.section-background-ourteam {
+.section-ourteam {
   background: #f4f4fd;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feature-description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .container-ourteam {
   background-color: #fff;
