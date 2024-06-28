@@ -1,10 +1,16 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 ul {
   list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -25,11 +31,11 @@ ul {
   line-height: 1.17;
 }
 
-.header-menu-list {
+.list {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
   line-height: 1.5;
 }
 .header-navigation a {
@@ -37,12 +43,10 @@ ul {
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.header-navigation a:hover {
+.header-navigation a:hover .header-navigation a:focus {
   color: #404bbf;
 }
-.header-navigation a:focus {
-  color: #404bbf;
-}
+
 .section-background {
   background: #2e2f42;
 }
