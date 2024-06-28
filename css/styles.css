@@ -98,7 +98,6 @@ address {
   color: white;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 .review-btn:hover {
